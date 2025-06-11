@@ -4,9 +4,6 @@ const weatherApi = {
     baseUrl: 'https://api.openweathermap.org/data/2.5/weather'
 };
 
-
-
-
 //anonymous function
 //adding event listener key press of enter
 let searchInputBox = document.getElementById('input-box');
