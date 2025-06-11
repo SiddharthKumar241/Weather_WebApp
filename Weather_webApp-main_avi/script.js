@@ -69,8 +69,6 @@ function showWeaterReport(weather) {
     }
 }
 
-
-
 //making a function for the  last update current time 
 
 function getTime(todayDate) {
@@ -78,7 +76,6 @@ function getTime(todayDate) {
     let minute =addZero(todayDate.getMinutes());
     return `${hour}:${minute}`;
 }
-
 //date manage for return  current date
 function dateManage(dateArg) {
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
