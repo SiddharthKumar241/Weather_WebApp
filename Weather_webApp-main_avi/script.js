@@ -15,9 +15,7 @@ searchInputBox.addEventListener('keypress', (event) => {
     }
 })
 
-
 //get waether report
-
 function getWeatherReport(city) {
     fetch(`${weatherApi.baseUrl}?q=${city}&appid=${weatherApi.key}&units=metric`)  // fetch method fetching the data from  base url ...metric is used for unit in celcius......here i am appending the base url to get data by city name .  
         .then(weather => {   //weather is from api
